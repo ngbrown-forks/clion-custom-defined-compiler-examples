@@ -1,0 +1,420 @@
+The target system is: Generic - 2 - m68k
+The host system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/nburn/gcc-m68k/bin/m68k-elf-gcc.exe 
+Build flags: ;-falign-functions=4;-fmessage-length=0;-mcpu=5234;-DCB34EX;-DMCF5234;-DNBMINGW;-Wl,--gc-sections
+Id flags:  
+
+The output was:
+0
+c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 80000080
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/nburn/gcc-m68k/bin/m68k-elf-gcc.exe 
+Build flags: ;-falign-functions=4;-fmessage-length=0;-mcpu=5234;-DCB34EX;-DMCF5234;-DNBMINGW;-Wl,--gc-sections
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/nburn/gcc-m68k/bin/m68k-elf-g++.exe 
+Build flags: ;-falign-functions=4;-fmessage-length=0;-mcpu=5234;-DCB34EX;-DMCF5234;-DNBMINGW;-Wl,--gc-sections;-fdata-sections;-ffunction-sections
+Id flags:  
+
+The output was:
+0
+c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 80000080
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/nburn/gcc-m68k/bin/m68k-elf-g++.exe 
+Build flags: ;-falign-functions=4;-fmessage-length=0;-mcpu=5234;-DCB34EX;-DMCF5234;-DNBMINGW;-Wl,--gc-sections;-fdata-sections;-ffunction-sections
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/nburn/gcc-m68k/bin/make.exe -f Makefile cmTC_42bf9/fast && C:/nburn/gcc-m68k/bin/make.exe  -f CMakeFiles\cmTC_42bf9.dir\build.make CMakeFiles/cmTC_42bf9.dir/build
+make.exe[1]: Entering directory 'D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42bf9.dir/CMakeCCompilerABI.c.obj
+C:\nburn\gcc-m68k\bin\m68k-elf-gcc.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot   -falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl,--gc-sections    -v -o CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj -c C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\share\cmake-3.21\Modules\CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=C:\nburn\gcc-m68k\bin\m68k-elf-gcc.exe
+Target: m68k-unknown-elf
+Configured with: /home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=m68k-unknown-elf --prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf --with-local-prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf --with-headers=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.23.0-328-g590eddf' --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpfr=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpc=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-isl=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c,c++
+Thread model: single
+gcc version 8.1.0 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) 
+COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-v' '-o' 'CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj' '-c'
+ c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/cc1.exe -quiet -v -imultilib m5208 -iprefix c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/ -isysroot C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -D CB34EX -D MCF5234 -D NBMINGW C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\share\cmake-3.21\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=5234 -auxbase-strip CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj -version -falign-functions=4 -fmessage-length=0 -o C:\Users\brownn1\AppData\Local\Temp\ccqVLunc.s
+GNU C17 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) version 8.1.0 (m68k-unknown-elf)
+	compiled by GNU C version 4.8.2, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/include"
+ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed"
+ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include"
+ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/include
+ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed
+ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include
+ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include
+End of search list.
+GNU C17 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) version 8.1.0 (m68k-unknown-elf)
+	compiled by GNU C version 4.8.2, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f32b49a6e44fa9f9eb9a72ead3ec39d5
+COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-v' '-o' 'CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj' '-c'
+ c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/as.exe -mcpu=5234 -o CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj C:\Users\brownn1\AppData\Local\Temp\ccqVLunc.s
+COMPILER_PATH=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/;c:/nburn/gcc-m68k/bin/../libexec/gcc/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/
+LIBRARY_PATH=c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/;c:/nburn/gcc-m68k/bin/../lib/gcc/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-v' '-o' 'CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj' '-c'
+Linking C executable cmTC_42bf9
+C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_42bf9.dir\link.txt --verbose=1
+C:\nburn\gcc-m68k\bin\m68k-elf-gcc.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl,--gc-sections  -mcpu=5234 -Wl,-n -T"C:\nburn/CB34EX/lib/CB34EX.ld" -Wl,-R"C:\nburn/CB34EX/lib/sys.ld" -v CMakeFiles/cmTC_42bf9.dir/CMakeCCompilerABI.c.obj -o cmTC_42bf9 
+Using built-in specs.
+COLLECT_GCC=C:\nburn\gcc-m68k\bin\m68k-elf-gcc.exe
+COLLECT_LTO_WRAPPER=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/lto-wrapper.exe
+Target: m68k-unknown-elf
+Configured with: /home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=m68k-unknown-elf --prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf --with-local-prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf --with-headers=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.23.0-328-g590eddf' --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpfr=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpc=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-isl=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c,c++
+Thread model: single
+gcc version 8.1.0 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) 
+COMPILER_PATH=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/;c:/nburn/gcc-m68k/bin/../libexec/gcc/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/
+LIBRARY_PATH=c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/;c:/nburn/gcc-m68k/bin/../lib/gcc/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-mcpu=5234' '-T' 'C:\nburn/CB34EX/lib/CB34EX.ld' '-v' '-o' 'cmTC_42bf9'
+ c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/collect2.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -o cmTC_42bf9 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208 -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208 -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0 -Lc:/nburn/gcc-m68k/bin/../lib/gcc -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib --gc-sections -n -RC:\nburn/CB34EX/lib/sys.ld CMakeFiles/cmTC_42bf9.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o -T C:\nburn/CB34EX/lib/CB34EX.ld
+COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-mcpu=5234' '-T' 'C:\nburn/CB34EX/lib/CB34EX.ld' '-v' '-o' 'cmTC_42bf9'
+make.exe[1]: Leaving directory 'D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/include]
+    add: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed]
+    add: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include]
+    add: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include]
+  end of search list found
+  collapse include dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/include] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include]
+  collapse include dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include-fixed]
+  collapse include dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include] ==> [C:/nburn/gcc-m68k/m68k-unknown-elf/sys-include]
+  collapse include dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include] ==> [C:/nburn/gcc-m68k/m68k-unknown-elf/include]
+  implicit include dirs: [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include;C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include-fixed;C:/nburn/gcc-m68k/m68k-unknown-elf/sys-include;C:/nburn/gcc-m68k/m68k-unknown-elf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(m68k-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/nburn/gcc-m68k/bin/make.exe -f Makefile cmTC_42bf9/fast && C:/nburn/gcc-m68k/bin/make.exe  -f CMakeFiles\cmTC_42bf9.dir\build.make CMakeFiles/cmTC_42bf9.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_42bf9.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\nburn\gcc-m68k\bin\m68k-elf-gcc.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot   -falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl --gc-sections    -v -o CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj -c C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\share\cmake-3.21\Modules\CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\nburn\gcc-m68k\bin\m68k-elf-gcc.exe]
+  ignore line: [Target: m68k-unknown-elf]
+  ignore line: [Configured with: /home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=m68k-unknown-elf --prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf --with-local-prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf --with-headers=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.23.0-328-g590eddf' --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpfr=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpc=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-isl=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --disable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -lm' --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c c++]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.1.0 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-v' '-o' 'CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/cc1.exe -quiet -v -imultilib m5208 -iprefix c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/ -isysroot C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -D CB34EX -D MCF5234 -D NBMINGW C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\share\cmake-3.21\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=5234 -auxbase-strip CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj -version -falign-functions=4 -fmessage-length=0 -o C:\Users\brownn1\AppData\Local\Temp\ccqVLunc.s]
+  ignore line: [GNU C17 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) version 8.1.0 (m68k-unknown-elf)]
+  ignore line: [	compiled by GNU C version 4.8.2  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/include"]
+  ignore line: [ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/include]
+  ignore line: [ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed]
+  ignore line: [ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include]
+  ignore line: [ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) version 8.1.0 (m68k-unknown-elf)]
+  ignore line: [	compiled by GNU C version 4.8.2  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f32b49a6e44fa9f9eb9a72ead3ec39d5]
+  ignore line: [COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-v' '-o' 'CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/as.exe -mcpu=5234 -o CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj C:\Users\brownn1\AppData\Local\Temp\ccqVLunc.s]
+  ignore line: [COMPILER_PATH=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../libexec/gcc/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-v' '-o' 'CMakeFiles\cmTC_42bf9.dir\CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C executable cmTC_42bf9]
+  ignore line: [C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_42bf9.dir\link.txt --verbose=1]
+  ignore line: [C:\nburn\gcc-m68k\bin\m68k-elf-gcc.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl --gc-sections  -mcpu=5234 -Wl -n -T"C:\nburn/CB34EX/lib/CB34EX.ld" -Wl -R"C:\nburn/CB34EX/lib/sys.ld" -v CMakeFiles/cmTC_42bf9.dir/CMakeCCompilerABI.c.obj -o cmTC_42bf9 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\nburn\gcc-m68k\bin\m68k-elf-gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/lto-wrapper.exe]
+  ignore line: [Target: m68k-unknown-elf]
+  ignore line: [Configured with: /home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=m68k-unknown-elf --prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf --with-local-prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf --with-headers=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.23.0-328-g590eddf' --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpfr=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpc=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-isl=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --disable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -lm' --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c c++]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.1.0 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) ]
+  ignore line: [COMPILER_PATH=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../libexec/gcc/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-mcpu=5234' '-T' 'C:\nburn/CB34EX/lib/CB34EX.ld' '-v' '-o' 'cmTC_42bf9']
+  link line: [ c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/collect2.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -o cmTC_42bf9 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208 -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208 -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0 -Lc:/nburn/gcc-m68k/bin/../lib/gcc -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib --gc-sections -n -RC:\nburn/CB34EX/lib/sys.ld CMakeFiles/cmTC_42bf9.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o -T C:\nburn/CB34EX/lib/CB34EX.ld]
+    arg [c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/collect2.exe] ==> ignore
+    arg [--sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_42bf9] ==> ignore
+    arg [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o] ==> obj [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o]
+    arg [-Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208] ==> dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208]
+    arg [-Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208] ==> dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208]
+    arg [-Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0] ==> dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0]
+    arg [-Lc:/nburn/gcc-m68k/bin/../lib/gcc] ==> dir [c:/nburn/gcc-m68k/bin/../lib/gcc]
+    arg [-Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib] ==> dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib]
+    arg [--gc-sections] ==> ignore
+    arg [-n] ==> ignore
+    arg [-RC:\nburn/CB34EX/lib/sys.ld] ==> ignore
+    arg [CMakeFiles/cmTC_42bf9.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o] ==> obj [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o]
+    arg [-T] ==> ignore
+    arg [C:\nburn/CB34EX/lib/CB34EX.ld] ==> ignore
+  collapse obj [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o]
+  collapse obj [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o]
+  collapse library dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208]
+  collapse library dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208] ==> [C:/nburn/gcc-m68k/m68k-unknown-elf/lib/m5208]
+  collapse library dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0]
+  collapse library dir [c:/nburn/gcc-m68k/bin/../lib/gcc] ==> [C:/nburn/gcc-m68k/lib/gcc]
+  collapse library dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib] ==> [C:/nburn/gcc-m68k/m68k-unknown-elf/lib]
+  implicit libs: [gcc;c;gcc]
+  implicit objs: [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o;C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o]
+  implicit dirs: [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208;C:/nburn/gcc-m68k/m68k-unknown-elf/lib/m5208;C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0;C:/nburn/gcc-m68k/lib/gcc;C:/nburn/gcc-m68k/m68k-unknown-elf/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/nburn/gcc-m68k/bin/make.exe -f Makefile cmTC_7f137/fast && C:/nburn/gcc-m68k/bin/make.exe  -f CMakeFiles\cmTC_7f137.dir\build.make CMakeFiles/cmTC_7f137.dir/build
+make.exe[1]: Entering directory 'D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f137.dir/CMakeCXXCompilerABI.cpp.obj
+C:\nburn\gcc-m68k\bin\m68k-elf-g++.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot   -falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl,--gc-sections -fdata-sections -ffunction-sections    -v -o CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=C:\nburn\gcc-m68k\bin\m68k-elf-g++.exe
+Target: m68k-unknown-elf
+Configured with: /home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=m68k-unknown-elf --prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf --with-local-prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf --with-headers=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.23.0-328-g590eddf' --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpfr=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpc=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-isl=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c,c++
+Thread model: single
+gcc version 8.1.0 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) 
+COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj' '-c'
+ c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/cc1plus.exe -quiet -v -imultilib m5208 -iprefix c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/ -isysroot C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -D CB34EX -D MCF5234 -D NBMINGW C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=5234 -auxbase-strip CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj -version -falign-functions=4 -fmessage-length=0 -fdata-sections -ffunction-sections -o C:\Users\brownn1\AppData\Local\Temp\cc1eknAW.s
+GNU C++14 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) version 8.1.0 (m68k-unknown-elf)
+	compiled by GNU C version 4.8.2, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0"
+ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/m68k-unknown-elf/m5208"
+ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/backward"
+ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/include"
+ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed"
+ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include"
+ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0
+ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/m68k-unknown-elf/m5208
+ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/backward
+ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/include
+ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed
+ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include
+ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include
+End of search list.
+GNU C++14 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) version 8.1.0 (m68k-unknown-elf)
+	compiled by GNU C version 4.8.2, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 1405e336b948c34e315c2d92a1e65e94
+COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj' '-c'
+ c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/as.exe -mcpu=5234 -o CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\brownn1\AppData\Local\Temp\cc1eknAW.s
+COMPILER_PATH=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/;c:/nburn/gcc-m68k/bin/../libexec/gcc/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/
+LIBRARY_PATH=c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/;c:/nburn/gcc-m68k/bin/../lib/gcc/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX executable cmTC_7f137
+C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_7f137.dir\link.txt --verbose=1
+C:\nburn\gcc-m68k\bin\m68k-elf-g++.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl,--gc-sections -fdata-sections -ffunction-sections  -mcpu=5234 -Wl,-n -T"C:\nburn/CB34EX/lib/CB34EX.ld" -Wl,-R"C:\nburn/CB34EX/lib/sys.ld" -v CMakeFiles/cmTC_7f137.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_7f137 
+Using built-in specs.
+COLLECT_GCC=C:\nburn\gcc-m68k\bin\m68k-elf-g++.exe
+COLLECT_LTO_WRAPPER=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/lto-wrapper.exe
+Target: m68k-unknown-elf
+Configured with: /home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=m68k-unknown-elf --prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf --with-local-prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf --with-headers=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.23.0-328-g590eddf' --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpfr=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpc=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-isl=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c,c++
+Thread model: single
+gcc version 8.1.0 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) 
+COMPILER_PATH=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/;c:/nburn/gcc-m68k/bin/../libexec/gcc/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/
+LIBRARY_PATH=c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/;c:/nburn/gcc-m68k/bin/../lib/gcc/;c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-fdata-sections' '-ffunction-sections' '-mcpu=5234' '-T' 'C:\nburn/CB34EX/lib/CB34EX.ld' '-v' '-o' 'cmTC_7f137'
+ c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/collect2.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -o cmTC_7f137 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208 -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208 -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0 -Lc:/nburn/gcc-m68k/bin/../lib/gcc -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib --gc-sections -n -RC:\nburn/CB34EX/lib/sys.ld CMakeFiles/cmTC_7f137.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lgcc c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o -T C:\nburn/CB34EX/lib/CB34EX.ld
+COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-fdata-sections' '-ffunction-sections' '-mcpu=5234' '-T' 'C:\nburn/CB34EX/lib/CB34EX.ld' '-v' '-o' 'cmTC_7f137'
+make.exe[1]: Leaving directory 'D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0]
+    add: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/m68k-unknown-elf/m5208]
+    add: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/backward]
+    add: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/include]
+    add: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed]
+    add: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include]
+    add: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include]
+  end of search list found
+  collapse include dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0] ==> [C:/nburn/gcc-m68k/m68k-unknown-elf/include/c++/8.1.0]
+  collapse include dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/m68k-unknown-elf/m5208] ==> [C:/nburn/gcc-m68k/m68k-unknown-elf/include/c++/8.1.0/m68k-unknown-elf/m5208]
+  collapse include dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/backward] ==> [C:/nburn/gcc-m68k/m68k-unknown-elf/include/c++/8.1.0/backward]
+  collapse include dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/include] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include]
+  collapse include dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include-fixed]
+  collapse include dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include] ==> [C:/nburn/gcc-m68k/m68k-unknown-elf/sys-include]
+  collapse include dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include] ==> [C:/nburn/gcc-m68k/m68k-unknown-elf/include]
+  implicit include dirs: [C:/nburn/gcc-m68k/m68k-unknown-elf/include/c++/8.1.0;C:/nburn/gcc-m68k/m68k-unknown-elf/include/c++/8.1.0/m68k-unknown-elf/m5208;C:/nburn/gcc-m68k/m68k-unknown-elf/include/c++/8.1.0/backward;C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include;C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include-fixed;C:/nburn/gcc-m68k/m68k-unknown-elf/sys-include;C:/nburn/gcc-m68k/m68k-unknown-elf/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(m68k-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/nburn/gcc-m68k/bin/make.exe -f Makefile cmTC_7f137/fast && C:/nburn/gcc-m68k/bin/make.exe  -f CMakeFiles\cmTC_7f137.dir\build.make CMakeFiles/cmTC_7f137.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7f137.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\nburn\gcc-m68k\bin\m68k-elf-g++.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot   -falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl --gc-sections -fdata-sections -ffunction-sections    -v -o CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\nburn\gcc-m68k\bin\m68k-elf-g++.exe]
+  ignore line: [Target: m68k-unknown-elf]
+  ignore line: [Configured with: /home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=m68k-unknown-elf --prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf --with-local-prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf --with-headers=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.23.0-328-g590eddf' --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpfr=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpc=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-isl=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --disable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -lm' --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c c++]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.1.0 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/cc1plus.exe -quiet -v -imultilib m5208 -iprefix c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/ -isysroot C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -D CB34EX -D MCF5234 -D NBMINGW C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=5234 -auxbase-strip CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj -version -falign-functions=4 -fmessage-length=0 -fdata-sections -ffunction-sections -o C:\Users\brownn1\AppData\Local\Temp\cc1eknAW.s]
+  ignore line: [GNU C++14 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) version 8.1.0 (m68k-unknown-elf)]
+  ignore line: [	compiled by GNU C version 4.8.2  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0"]
+  ignore line: [ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/m68k-unknown-elf/m5208"]
+  ignore line: [ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/backward"]
+  ignore line: [ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/include"]
+  ignore line: [ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "c:/nburn/gcc-m68k/lib/gcc/../../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0]
+  ignore line: [ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/m68k-unknown-elf/m5208]
+  ignore line: [ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include/c++/8.1.0/backward]
+  ignore line: [ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/include]
+  ignore line: [ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/include-fixed]
+  ignore line: [ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/sys-include]
+  ignore line: [ c:\nburn\gcc-m68k\bin\../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) version 8.1.0 (m68k-unknown-elf)]
+  ignore line: [	compiled by GNU C version 4.8.2  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 1405e336b948c34e315c2d92a1e65e94]
+  ignore line: [COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/as.exe -mcpu=5234 -o CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\brownn1\AppData\Local\Temp\cc1eknAW.s]
+  ignore line: [COMPILER_PATH=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../libexec/gcc/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles\cmTC_7f137.dir\CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX executable cmTC_7f137]
+  ignore line: [C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_7f137.dir\link.txt --verbose=1]
+  ignore line: [C:\nburn\gcc-m68k\bin\m68k-elf-g++.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl --gc-sections -fdata-sections -ffunction-sections  -mcpu=5234 -Wl -n -T"C:\nburn/CB34EX/lib/CB34EX.ld" -Wl -R"C:\nburn/CB34EX/lib/sys.ld" -v CMakeFiles/cmTC_7f137.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_7f137 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\nburn\gcc-m68k\bin\m68k-elf-g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/lto-wrapper.exe]
+  ignore line: [Target: m68k-unknown-elf]
+  ignore line: [Configured with: /home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=m68k-unknown-elf --prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf --with-local-prefix=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf --with-headers=/home/ubuntu/x-tools/HOST-mingw32/m68k-unknown-elf/m68k-unknown-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.23.0-328-g590eddf' --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpfr=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-mpc=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --with-isl=/home/ubuntu/build/.build/HOST-mingw32/m68k-unknown-elf/buildtools/complibs-host --disable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -lm' --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c c++]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.1.0 (crosstool-NG crosstool-ng-1.23.0-328-g590eddf) ]
+  ignore line: [COMPILER_PATH=c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../libexec/gcc/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/]
+  ignore line: [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-falign-functions=4' '-fmessage-length=0' '-mcpu=5234' '-D' 'CB34EX' '-D' 'MCF5234' '-D' 'NBMINGW' '-fdata-sections' '-ffunction-sections' '-mcpu=5234' '-T' 'C:\nburn/CB34EX/lib/CB34EX.ld' '-v' '-o' 'cmTC_7f137']
+  link line: [ c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/collect2.exe --sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot -o cmTC_7f137 c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208 -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208 -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0 -Lc:/nburn/gcc-m68k/bin/../lib/gcc -Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib --gc-sections -n -RC:\nburn/CB34EX/lib/sys.ld CMakeFiles/cmTC_7f137.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lgcc c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o -T C:\nburn/CB34EX/lib/CB34EX.ld]
+    arg [c:/nburn/gcc-m68k/bin/../libexec/gcc/m68k-unknown-elf/8.1.0/collect2.exe] ==> ignore
+    arg [--sysroot=C:\nburn/gcc-m68k/m68k-unknown-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7f137] ==> ignore
+    arg [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o] ==> obj [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o]
+    arg [-Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208] ==> dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208]
+    arg [-Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208] ==> dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208]
+    arg [-Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0] ==> dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0]
+    arg [-Lc:/nburn/gcc-m68k/bin/../lib/gcc] ==> dir [c:/nburn/gcc-m68k/bin/../lib/gcc]
+    arg [-Lc:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib] ==> dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib]
+    arg [--gc-sections] ==> ignore
+    arg [-n] ==> ignore
+    arg [-RC:\nburn/CB34EX/lib/sys.ld] ==> ignore
+    arg [CMakeFiles/cmTC_7f137.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o] ==> obj [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o]
+    arg [-T] ==> ignore
+    arg [C:\nburn/CB34EX/lib/CB34EX.ld] ==> ignore
+  collapse obj [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o]
+  collapse obj [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o]
+  collapse library dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/m5208] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208]
+  collapse library dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib/m5208] ==> [C:/nburn/gcc-m68k/m68k-unknown-elf/lib/m5208]
+  collapse library dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0] ==> [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0]
+  collapse library dir [c:/nburn/gcc-m68k/bin/../lib/gcc] ==> [C:/nburn/gcc-m68k/lib/gcc]
+  collapse library dir [c:/nburn/gcc-m68k/bin/../lib/gcc/m68k-unknown-elf/8.1.0/../../../../m68k-unknown-elf/lib] ==> [C:/nburn/gcc-m68k/m68k-unknown-elf/lib]
+  implicit libs: [stdc++;m;gcc;c;gcc]
+  implicit objs: [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtbegin.o;C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208/crtend.o]
+  implicit dirs: [C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208;C:/nburn/gcc-m68k/m68k-unknown-elf/lib/m5208;C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0;C:/nburn/gcc-m68k/lib/gcc;C:/nburn/gcc-m68k/m68k-unknown-elf/lib]
+  implicit fwks: []
+
+

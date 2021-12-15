@@ -1,0 +1,103 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include",
+						"C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include-fixed",
+						"C:/nburn/gcc-m68k/m68k-unknown-elf/sys-include",
+						"C:/nburn/gcc-m68k/m68k-unknown-elf/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208",
+						"C:/nburn/gcc-m68k/m68k-unknown-elf/lib/m5208",
+						"C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0",
+						"C:/nburn/gcc-m68k/lib/gcc",
+						"C:/nburn/gcc-m68k/m68k-unknown-elf/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"c",
+						"gcc"
+					]
+				},
+				"path" : "C:/nburn/gcc-m68k/bin/m68k-elf-gcc.exe",
+				"version" : "8.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/nburn/gcc-m68k/m68k-unknown-elf/include/c++/8.1.0",
+						"C:/nburn/gcc-m68k/m68k-unknown-elf/include/c++/8.1.0/m68k-unknown-elf/m5208",
+						"C:/nburn/gcc-m68k/m68k-unknown-elf/include/c++/8.1.0/backward",
+						"C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include",
+						"C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/include-fixed",
+						"C:/nburn/gcc-m68k/m68k-unknown-elf/sys-include",
+						"C:/nburn/gcc-m68k/m68k-unknown-elf/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0/m5208",
+						"C:/nburn/gcc-m68k/m68k-unknown-elf/lib/m5208",
+						"C:/nburn/gcc-m68k/lib/gcc/m68k-unknown-elf/8.1.0",
+						"C:/nburn/gcc-m68k/lib/gcc",
+						"C:/nburn/gcc-m68k/m68k-unknown-elf/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc",
+						"c",
+						"gcc"
+					]
+				},
+				"path" : "C:/nburn/gcc-m68k/bin/m68k-elf-g++.exe",
+				"version" : "8.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

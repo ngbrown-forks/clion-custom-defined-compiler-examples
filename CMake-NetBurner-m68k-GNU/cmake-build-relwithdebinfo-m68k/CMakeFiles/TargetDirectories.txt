@@ -1,0 +1,3 @@
+D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/edit_cache.dir
+D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/CMake-NetBurner-m68k-GNU.dir
+D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k/CMakeFiles/rebuild_cache.dir

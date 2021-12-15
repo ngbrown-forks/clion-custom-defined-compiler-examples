@@ -1,0 +1,134 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMake-NetBurner-m68k-GNU"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl,--gc-sections -fdata-sections -ffunction-sections -O2 -gdwarf-2 -DNDEBUG"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "C:\\nburn/gcc-m68k/m68k-unknown-elf/sysroot"
+			}
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl,--gc-sections -O2 -gdwarf-2 -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				1
+			],
+			"sysroot" : 
+			{
+				"path" : "C:\\nburn/gcc-m68k/m68k-unknown-elf/sysroot"
+			}
+		}
+	],
+	"id" : "CMake-NetBurner-m68k-GNU::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl,--gc-sections -fdata-sections -ffunction-sections -O2 -gdwarf-2 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mcpu=5234 -Wl,-n -T\"C:\\nburn/CB34EX/lib/CB34EX.ld\" -Wl,-R\"C:\\nburn/CB34EX/lib/sys.ld\"",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "C:\\nburn/gcc-m68k/m68k-unknown-elf/sysroot"
+		}
+	},
+	"name" : "CMake-NetBurner-m68k-GNU",
+	"nameOnDisk" : "CMake-NetBurner-m68k-GNU",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "cmain.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

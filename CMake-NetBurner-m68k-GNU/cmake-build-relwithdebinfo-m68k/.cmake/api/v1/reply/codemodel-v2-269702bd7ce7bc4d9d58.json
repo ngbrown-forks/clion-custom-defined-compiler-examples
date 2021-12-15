@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMake-NetBurner-m68k-GNU",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CMake-NetBurner-m68k-GNU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMake-NetBurner-m68k-GNU-RelWithDebInfo-8df7011cf949947b4062.json",
+					"name" : "CMake-NetBurner-m68k-GNU",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k",
+		"source" : "D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

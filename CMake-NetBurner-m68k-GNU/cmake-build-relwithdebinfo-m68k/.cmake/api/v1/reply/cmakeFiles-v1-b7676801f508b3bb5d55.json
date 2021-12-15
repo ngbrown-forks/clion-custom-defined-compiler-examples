@@ -1,0 +1,130 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-relwithdebinfo-m68k/CMakeFiles/3.21.1/CMakeSystem.cmake"
+		},
+		{
+			"path" : "Toolchain-nburn-m68k.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-relwithdebinfo-m68k/CMakeFiles/3.21.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-relwithdebinfo-m68k/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/Platform/Generic.cmake"
+		},
+		{
+			"path" : "CMakeOverrideDebugDwarf.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/Platform/Generic.cmake"
+		},
+		{
+			"path" : "CMakeOverrideDebugDwarf.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/brownn1/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k",
+		"source" : "D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

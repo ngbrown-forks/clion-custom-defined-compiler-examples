@@ -1,0 +1,31 @@
+CMakeFiles/CMake-NetBurner-m68k-GNU.dir/cmain.c.obj: \
+ D:\dev\OSS\clion-custom-defined-compiler-examples\CMake-NetBurner-m68k-GNU\cmain.c \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\stdio.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\_ansi.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\newlib.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\_newlib_version.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\config.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\machine\ieeefp.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\features.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\cdefs.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\machine\_default_types.h \
+ c:\nburn\gcc-m68k\lib\gcc\m68k-unknown-elf\8.1.0\include\stddef.h \
+ c:\nburn\gcc-m68k\lib\gcc\m68k-unknown-elf\8.1.0\include\stdarg.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\reent.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\_ansi.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\_types.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\machine\_types.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\lock.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\types.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\_stdint.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\machine\endian.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\machine\_endian.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\select.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\_sigset.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\_timeval.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\timespec.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\_timespec.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\_pthreadtypes.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\sched.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\machine\types.h \
+ c:\nburn\gcc-m68k\m68k-unknown-elf\sys-include\sys\stdio.h

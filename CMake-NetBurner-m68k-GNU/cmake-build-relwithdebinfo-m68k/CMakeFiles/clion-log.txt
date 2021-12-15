@@ -1,0 +1,10 @@
+C:\Users\brownn1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_MAKE_PROGRAM=C:/nburn/gcc-m68k/bin/make.exe -DCMAKE_C_COMPILER=C:/nburn/gcc-m68k/bin/m68k-elf-gcc.exe -DCMAKE_CXX_COMPILER=C:/nburn/gcc-m68k/bin/m68k-elf-g++.exe -G "MinGW Makefiles" -DCMAKE_TOOLCHAIN_FILE:FILEPATH=./Toolchain-nburn-m68k.cmake -DNBURN_PLATFORM:STRING=CB34EX D:\dev\OSS\clion-custom-defined-compiler-examples\CMake-NetBurner-m68k-GNU
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_TOOLCHAIN_FILE
+
+
+-- Build files have been written to: D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k

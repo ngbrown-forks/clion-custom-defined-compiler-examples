@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k",
+  "command": "C:\\nburn\\gcc-m68k\\bin\\m68k-elf-g++.exe --sysroot=C:\\nburn/gcc-m68k/m68k-unknown-elf/sysroot   -falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl,--gc-sections -fdata-sections -ffunction-sections -O2 -gdwarf-2 -DNDEBUG -o CMakeFiles\\CMake-NetBurner-m68k-GNU.dir\\main.cpp.obj -c D:\\dev\\OSS\\clion-custom-defined-compiler-examples\\CMake-NetBurner-m68k-GNU\\main.cpp",
+  "file": "D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/main.cpp"
+},
+{
+  "directory": "D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmake-build-relwithdebinfo-m68k",
+  "command": "C:\\nburn\\gcc-m68k\\bin\\m68k-elf-gcc.exe --sysroot=C:\\nburn/gcc-m68k/m68k-unknown-elf/sysroot   -falign-functions=4 -fmessage-length=0 -mcpu=5234 -DCB34EX -DMCF5234 -DNBMINGW -Wl,--gc-sections -O2 -gdwarf-2 -DNDEBUG -std=gnu99 -o CMakeFiles\\CMake-NetBurner-m68k-GNU.dir\\cmain.c.obj -c D:\\dev\\OSS\\clion-custom-defined-compiler-examples\\CMake-NetBurner-m68k-GNU\\cmain.c",
+  "file": "D:/dev/OSS/clion-custom-defined-compiler-examples/CMake-NetBurner-m68k-GNU/cmain.c"
+}
+]
